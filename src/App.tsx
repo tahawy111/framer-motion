@@ -3,7 +3,7 @@ import Box1 from "./components/Box1/Box1";
 
 function App() {
   return (
-    <div className="p-12">
+    <div className="py-12 px-1">
       <Box1 />
     </div>
   );
