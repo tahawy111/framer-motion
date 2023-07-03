@@ -12,6 +12,7 @@ export default function Box2({}: Box2Props) {
         className="w-64 h-64 bg-gradient-to-tr to-blue-600 from-teal-600 flex flex-col items-center justify-center"
         whileHover={{ scale: 1.1 }}
         whileTap={{ scale: 0.9 }}
+        drag
       ></motion.div>
     </div>
   );
