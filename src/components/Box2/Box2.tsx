@@ -1,10 +1,9 @@
-import { useState, useRef } from "react";
+import { useRef } from "react";
 import { motion } from "framer-motion";
 
 interface Box2Props {}
 
 export default function Box2({}: Box2Props) {
-  const [isAnimating, setIsAnimating] = useState<boolean>(false);
   const dragContainer = useRef<HTMLDivElement>(null);
 
   return (
